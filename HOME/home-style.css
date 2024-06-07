@@ -1,0 +1,135 @@
+/* section1 */
+.slidshow {
+  position: relative;
+  top: 130px;
+  margin-bottom: 200px;
+}
+
+.slidshow div {
+  display: none;
+}
+.slidshow div img {
+  width: 100%;
+  height: auto;
+}
+/* section2 */
+.data{
+  margin-top: 200px;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 3;
+  color: #a76831;
+  background-color: #EEE;
+  margin-bottom: 100px;
+}
+.data h2{
+text-align: center;
+background-color: #a76831;
+color: #EEE;
+width: 30%;
+height: auto;
+margin: 20px;
+border-radius: 0 0  20px 20px;
+}
+
+.data .structure,.art,.artifacts{
+  display: flex;
+  justify-content: space-around;
+}
+
+.data video{
+  width: 30%;
+  height: auto;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.data .structure p,.art p, .artifacts p{
+  padding: 15px;
+  height: 400px;
+  overflow: hidden;
+  animation: type 5s steps(1000) forwards;
+  animation-play-state: paused;
+}
+
+.data img{
+  width: 35%;
+  height: auto;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+@keyframes type {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* section3 */
+.gallery{
+background-color: #a76831;
+margin-bottom: 100px;
+}
+.gallery h2 {
+  text-align: center;
+  background-color: #EEE;
+  color: #a76831 ;
+  padding: 15px;
+  font-size: 2em;
+  width: 30%;
+  height: auto;
+  margin: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.gallery div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.gallery img{
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  transition:  1s ease;
+}
+
+/* section4 */
+.info{
+  background-color: #a76831;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.info h2 {
+  text-align: center;
+  background-color: #EEE;
+  color: #a76831;
+  padding: 15px;
+  font-size: 2em;
+  width: 30%;
+  height: auto;
+  margin: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.info h3{
+  color: #EEE;
+  margin: 10px;
+}
+
+.info p{
+  background-color: #EEE;
+  color: #a76831;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: 700;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- language -->
+    <meta charset="UTF-8" />
+    <!-- for screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEM</title>
+    <!-- img title -->
+    <link rel="icon" href="../Photos/GEM_Logo.png" type="image/x-icon" />
+    <!-- css file -->
+    <link rel="stylesheet" href="reservation-style.css" />
+    <link rel="stylesheet" href="../style-all.css" />
+    <!-- link font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- font file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- font file -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font file -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@600&family=Kaushan+Script&family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <h1><a href="reservation.html">Book Your Ticket</a></h1>
+        <a href="../HOME/index.php"><img src="../Photos/GEM_Logo.png" alt="logo"/></a>
+        <ul>
+          <li><a href="../HOME/index.php"><i class="fa-solid fa-house"></i>&nbsp;home</a></li>
+          <li><a href="../EVENTS/display_articles.php"><i class="fa-regular fa-newspaper"></i>&nbsp;events</a></li>
+          <li class="activ"><a href="reservation.html"><i class="fa-solid fa-ticket"></i>&nbsp;reservations</a></li>
+          <li><a href="../CONTACT-US/contact.html"><i class="fa-solid fa-headset"></i>&nbsp;contact us</a></li>
+          <li><a href="../ABOUT-US/about.html"><i class="fa-solid fa-circle-info"></i>&nbsp;about us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="fixed-button">
+      <button><a href="../CONTACT-US/contact.html">inquiries</a></button>
+    </div>
+
+    <section class="animate__animated animate__zoomInDown">
+      <div>
+        <form action="reserve_ticket.php" method="post">
+          <div class="one">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="two">
+            <div>
+              <label for="nationality">Nationality:</label>
+              <select id="nationality" name="nationality" required>
+                <option value="Egyptian">Egyptian</option>
+                <option value="Foreigner">Foreigner</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="type">Ticket Type:</label>
+              <select id="type" name="type" required>
+                <option value="Adult">Adult</option>
+                <option value="Student">Student</option>
+                <option value="Child">Companies</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="three">
+            <div>
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" name="quantity" required />
+            </div>
+            <div>
+              <label for="visit_date">Visit Date:</label>
+              <input
+                type="date"
+                id="visit_date"
+                name="visit_date"
+                required
+              /><br />
+            </div>
+          </div>
+          <button type="submit">Go Pay</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p><i class="fa-solid fa-phone"></i> call us-> 20235317344</p>
+      <br>
+      <p><i class="fa-solid fa-plus"></i> FOLLOW US -> </p>
+      <a href="https://www.facebook.com/GrandEgyptianMuseum/"><i class="fa-brands fa-facebook"></i></a>&nbsp;
+      <a href="https://www.instagram.com/grandegyptianmuseum/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.instagram.com/grandegyptianmuseum/"><i class="fa-brands fa-x-twitter"></i></a>
+      <h3>&copy; 2024 Egyptian Museum</h3>
+    </footer>
+  </body>
+</html>

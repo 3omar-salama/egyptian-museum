@@ -1,0 +1,40 @@
+/* section */
+section {
+  position: relative;
+  left: calc(50% - 400px);
+  margin-bottom: 200px;
+}
+section .post {
+  position: relative;
+  top: 125px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  width: 800px;
+}
+
+.post img {
+  width: 400px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.vid video {
+  width: 400px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.post h2 {
+  display: flex;
+  justify-content: center;
+  color: #a76831;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.post p {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,60 @@
+* {
+    font-family: "Lugrasimo", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+.tex h1 {
+margin: 10px;
+color: #555;
+}
+
+form {
+    width: 28%;
+    height: 400px;
+    background-color: #555;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 2px gray;
+    font-weight: 600;
+    color: #eee;
+    border: 2px solid #eee;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    position: relative;
+    left: calc(50% - 200px);
+    top: 50px;
+}
+
+input {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 2px solid #eee;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #eee;
+    width: 250px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid #eee;
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+}

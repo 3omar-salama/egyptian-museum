@@ -1,0 +1,80 @@
+/* section */
+section{
+    position: relative;
+    top: 150px;
+    margin-bottom: 200px;
+}
+
+form{
+    padding: 50px;
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: calc(50% - 25%);
+    background-color: #a76831;
+    border-radius: 20px;
+    color: #EEEE;
+}
+
+form .one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.one input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+form .two{
+    margin-bottom: 15px;
+}
+
+.two select{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+}
+.three label{
+    margin-left: 20px;
+}
+#quantity{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: 15px;
+}
+
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+ form button{
+    color: #a76831;
+    background-color: #EEE;
+    width: 80%;
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    left: calc(50% - 40%);
+}
+form button:hover{
+    background-color: #a76831;
+    color: #EEE;
+
+}

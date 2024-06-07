@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- langyage -->
+    <meta charset="UTF-8" />
+    <!-- for screns -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEM_contact</title>
+    <!-- img title -->
+    <link rel="icon" href="../Photos/GEM_Logo.png" type="image/x-icon" />
+    <!-- css file -->
+    <link rel="stylesheet" href="contact-style.css" />
+    <link rel="stylesheet" href="../style-all.css" />
+    <!-- link font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- font file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- font file -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font file -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@600&family=Kaushan+Script&family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1><a href="contact.html">Your inquiry is our duty</a></h1>
+        <a href="../HOME/index.php"><img src="../Photos/GEM_Logo.png" alt="logo"/></a>
+        <ul>
+          <li><a href="../HOME/index.php"><i class="fa-solid fa-house"></i>&nbsp;home</a></li>
+          <li><a href="../EVENTS/display_articles.php"><i class="fa-regular fa-newspaper"></i>&nbsp;events</a></li>
+          <li><a href="../RESERVATION/reservation.html"><i class="fa-solid fa-ticket"></i>&nbsp;reservations</a></li></li>
+          <li class="activ"><a href="contact.html"><i class="fa-solid fa-headset"></i>&nbsp;contact us</a></li>
+          <li><a href="../ABOUT-US/about.html"><i class="fa-solid fa-circle-info"></i>&nbsp;about us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Contact us now</h2>
+      <p>
+        For inquiries and if there is any problem, contact us. <br />We are
+        happy to serve you
+      </p>
+
+      <div>
+        <form action="contact.php" autocomplete="off" method="post">
+          <input
+            type="text"
+            id="name"
+            placeholder="name"
+            name="name"
+            class="input"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="email"
+            name="email"
+            class="input"
+            required
+          />
+          <input
+            type="tel"
+            id="phone"
+            placeholder="phone"
+            name="phone"
+            class="input"
+            required
+          />
+          <!-- <input type="text" class="massage" placeholder="massage"> -->
+          <textarea
+            id="message"
+            name="message"
+            class="massage"
+            placeholder="massage"
+            required
+          ></textarea>
+          <button type="submit">send</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="info">
+      <div>
+        <h3>Our information</h3>
+        <p class="location">
+          <i class="fa-solid fa-location-dot"></i>&nbsp;<a
+            href="https://www.google.com/maps/dir/30.185175,31.2511902/%D8%B9%D9%86%D9%88%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A+%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%E2%80%AD%E2%80%AD/@30.091625,31.3246432,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14584534984a8ad1:0x45764c5bc4ec261a!2m2!1d31.1228099!2d29.9946422?entry=ttu"
+          >
+            location</a
+          >
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>&nbsp;grand egyptian
+          museum@gmail.com
+        </p>
+        <p><i class="fa-solid fa-phone"></i>&nbsp;20235317344</p>
+      </div>
+
+      <div>
+        <h4>Other ways communicate</h4>
+        <a href="https://www.facebook.com/GrandEgyptianMuseum/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/grandegyptianmuseum/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.instagram.com/grandegyptianmuseum/"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p><i class="fa-solid fa-phone"></i> call us-> 20235317344</p>
+      <br>
+      <p><i class="fa-solid fa-plus"></i> FOLLOW US -> </p>
+      <a href="https://www.facebook.com/GrandEgyptianMuseum/"><i class="fa-brands fa-facebook"></i></a>&nbsp;
+      <a href="https://www.instagram.com/grandegyptianmuseum/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.instagram.com/grandegyptianmuseum/"><i class="fa-brands fa-x-twitter"></i></a>
+      <h3>&copy; 2024 Egyptian Museum</h3>
+    </footer>
+  </body>
+</html>
